@@ -1,4 +1,4 @@
-const htmlFactory = () => (`<!doctype html>
+const htmlFactory = (number) => (`<!doctype html>
 
 <html lang="en">
 <head>
@@ -10,7 +10,7 @@ const htmlFactory = () => (`<!doctype html>
 </head>
 
 <body>
-  Something important
+  Something important ${number}
 </body>
 </html>`)
 
